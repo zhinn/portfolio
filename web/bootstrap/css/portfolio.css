@@ -1,0 +1,102 @@
+body {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    overflow-x: hidden; }
+
+p {
+    font-size: 20px; }
+a,
+a.active,
+a:active,
+a:focus,
+tr:hover, a:hover {
+    color: #18BC9C;
+    outline: none; }
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase; }
+
+#mainNav {
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    background: #315c7c; }
+#mainNav a:focus {
+    outline: none; }
+#mainNav .navbar-brand {
+    font-size: 1.1rem;
+    color: white; }
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    color: white; }
+#mainNav .navbar-nav {
+    letter-spacing: 1px; }
+#mainNav .navbar-nav li.nav-item a.nav-link {
+    color: white; }
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #272727;
+    outline: none; }
+#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+    color: white; }
+#mainNav .navbar-toggler {
+    font-size: 14px;
+    padding: 11px;
+    text-transform: uppercase;
+    color: white;
+    border-color: white; }
+#mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
+    color: white;
+    border-color: #18BC9C;
+    background-color: #18BC9C; }
+
+
+
+header.masthead {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+    background: #272727; }
+header.masthead img {
+    display: block;
+    margin: 0 auto 20px; }
+
+header.masthead .intro-text {
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    display: block;
+    text-transform: uppercase;
+}
+
+
+section {
+    padding: 100px 0; }
+section h2 {
+    font-size: 3em;
+    margin: 0; }
+
+
+.scroll-top {
+    position: fixed;
+    z-index: 1049;
+    right: 2%;
+    bottom: 2%;
+    width: 50px;
+    height: 50px; }
+.scroll-top .btn {
+    font-size: 16px;
+    line-height: 28px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 100%; }
+.scroll-top .btn:focus {
+    outline: none; }
