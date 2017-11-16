@@ -56,6 +56,32 @@ h6 {
     border-color: #18BC9C;
     background-color: #18BC9C; }
 
+    @media (min-width: 992px) {
+      #mainNav {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+        -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+        transition: padding-top 0.3s, padding-bottom 0.3s; }
+        #mainNav .navbar-brand {
+          font-size: 2em;
+          -webkit-transition: all 0.3s;
+          -moz-transition: all 0.3s;
+          transition: all 0.3s; }
+        #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+          color: white;
+          border-radius: 3px;
+          background: #18BC9C; }
+          #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+            color: white;
+            background: #18BC9C; }
+      #mainNav.navbar-shrink {
+        padding-top: 10px;
+        padding-bottom: 10px; }
+        #mainNav.navbar-shrink .navbar-brand {
+          font-size: 1.5em; } }
+
+
 
 
 header.masthead {
@@ -76,6 +102,15 @@ header.masthead .intro-text {
     text-transform: uppercase;
 }
 
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 200px;
+    padding-bottom: 100px; }
+    header.masthead .intro-text .name {
+      font-size: 4.75em; }
+    header.masthead .intro-text .skills {
+      font-size: 1.75em; } }
+
 
 section {
     padding: 100px 0; }
@@ -83,6 +118,14 @@ section h2 {
     font-size: 3em;
     margin: 0; }
 
+    @media (max-width: 767px) {
+      section {
+        padding: 75px 0; }
+      section.first {
+        padding-top: 75px; } }
+
+form .row:first-child .floating-label-form-group {
+    border-top: 1px solid #eeeeee; }
 
 .scroll-top {
     position: fixed;
